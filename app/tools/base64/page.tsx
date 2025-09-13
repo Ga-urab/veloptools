@@ -27,7 +27,7 @@ export default function Base64Converter() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       <header className="bg-white shadow px-6 py-4">
-        <h1 className="text-xl font-semibold">MiniTools — Base64 Converter</h1>
+        <h1 className="text-xl font-semibold">VelopTools — Base64 Converter</h1>
       </header>
 
       <main className="flex-1 container mx-auto px-4 py-10 grid lg:grid-cols-3 gap-8">

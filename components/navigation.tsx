@@ -31,7 +31,7 @@ export function Navigation({ onSearch, onToggleSidebar, isSidebarOpen }: Navigat
           <Button variant="ghost" size="sm" onClick={onToggleSidebar} className="md:hidden">
             {isSidebarOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </Button>
-          <h1 className="text-xl font-bold text-primary">MiniTools</h1>
+          <h1 className="text-xl font-bold text-primary">VelopTools</h1>
         </div>
 
         {showSearch && (

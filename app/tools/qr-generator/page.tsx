@@ -6,7 +6,7 @@ import QRCode from "qrcode";
 export default function QRGeneratorPage() {
   const previewRef = useRef<HTMLCanvasElement>(null);
   const hiddenCanvasRef = useRef<HTMLCanvasElement>(null); 
-  const [text, setText] = useState("https://minitools.app");
+  const [text, setText] = useState("https://veloptools.com");
   const [size, setSize] = useState(400);
   const [margin, setMargin] = useState(2);
   const [fgColor, setFgColor] = useState("#000000");
@@ -152,7 +152,7 @@ export default function QRGeneratorPage() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       <header className="bg-white shadow px-6 py-4">
-        <h1 className="text-xl font-semibold">MiniTools — QR Generator</h1>
+        <h1 className="text-xl font-semibold">VelopTools — QR Generator</h1>
       </header>
 
       <main className="flex-1 container mx-auto px-4 py-10 grid lg:grid-cols-3 gap-8">
