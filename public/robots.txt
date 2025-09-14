@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://veloptools.com
+
+# Sitemaps
+Sitemap: https://veloptools.com/sitemap.xml
