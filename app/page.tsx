@@ -21,6 +21,15 @@ import {
 } from "lucide-react"
 
 const tools = [
+    {
+    id: "cuche",
+    title: "Cuche Game Recorder",
+    description:
+      "Play and record your cuche game rounds easily. Track scores, save progress, and determine the winner.",
+    icon: QrCode,
+    category: "card-games",
+    href: "/tools/cuche",
+  },
   {
     id: "qr-generator",
     title: "QR Code Generator",
