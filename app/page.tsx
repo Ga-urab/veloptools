@@ -23,12 +23,31 @@ import {
 const tools = [
     {
     id: "cuche",
-    title: "Cuche Game Recorder",
+    title: "Chuche Game Recorder",
     description:
       "Play and record your cuche game rounds easily. Track scores, save progress, and determine the winner.",
     icon: QrCode,
     category: "card-games",
     href: "/tools/cuche",
+  },
+   {
+    id: "marriage",
+    title: "Marriage Game Recorder",
+    description:
+      "Play and record your marriage game rounds easily. Track scores, save progress, and determine the winner.",
+    icon: QrCode,
+    category: "card-games",
+    href: "/tools/marriage",
+    
+  },
+   {
+    id: "callBreak",
+    title: "Call Break Game Recorder",
+    description:
+      "Play and record your call break game rounds easily. Track scores, save progress, and determine the winner.",
+    icon: QrCode,
+    category: "card-games",
+    href: "/tools/callbreak",
   },
   {
     id: "qr-generator",
